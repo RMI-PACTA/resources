@@ -1,12 +1,10 @@
-# resources
+# resources: A place to explore and share resources 
 
-A place to make it easy to reuse the cool stuff we learn. Each resource is a labelled issue:
+Each resource is stored as a labelled issue.
 
-### [Explore resources](https://github.com/2DegreesInvesting/resources/issues).
-### [Add a resource](https://github.com/2DegreesInvesting/resources/issues/new).
+### [Explore resources](https://github.com/2DegreesInvesting/resources/issues)
+### [Share a resource](https://github.com/2DegreesInvesting/resources/issues/new)
 
-![image](https://user-images.githubusercontent.com/5856545/60793678-75690b80-a168-11e9-91a5-039b89e032c9.png)
+### How to remove a resource?
 
-## Closing issues
-
-In this repo most issues stay open. Given the goal of this repo, we only close an issue if the resource it exposes is no longer useful, e.g. because it became invalid, confusing or obsolete. 
+Resources may became invalid, confusing or obsolete. If you have sufficient privileges, you may "remove" a resource by hitting the "Close issue" button. If your privileges are insufficient, please open a new issue and explain which resource we should remove and why.
