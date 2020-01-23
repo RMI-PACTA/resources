@@ -2,8 +2,8 @@
 
 Each resource is stored as a labelled issue.
 
-### [Click here to explore resources](https://github.com/2DegreesInvesting/resources/issues)
-### [Click here to share a resource](https://github.com/2DegreesInvesting/resources/issues/new)
+* [Click here to explore resources](https://github.com/2DegreesInvesting/resources/issues)
+* [Click here to share a resource](https://github.com/2DegreesInvesting/resources/issues/new)
 
 ### How to remove a resource?
 
