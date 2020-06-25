@@ -1,10 +1,8 @@
-# resources: A place to explore and share resources 
+What would you like to do?
 
-Each resource is stored as a labelled issue.
+* [Explore resources](https://github.com/2DegreesInvesting/resources/issues)
+* [Share a new resource](https://github.com/2DegreesInvesting/resources/issues/new)
 
-* [Click here to explore resources](https://github.com/2DegreesInvesting/resources/issues)
-* [Click here to share a resource](https://github.com/2DegreesInvesting/resources/issues/new)
-
-**How to remove a resource?**
+How to remove a resource?
 
 Resources may became invalid, confusing or obsolete. If you have sufficient privileges, you may "remove" a resource by hitting the "Close issue" button. If your privileges are insufficient, please open a new issue and explain which resource we should remove and why.
