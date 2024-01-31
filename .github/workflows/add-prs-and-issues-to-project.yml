@@ -11,14 +11,6 @@ on:
       - opened
 
 jobs:
-  add-to-r2dii-proj:
-    name: Add issue/ PR to r2dii suite GH project
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/add-to-project@v0.5.0
-        with:
-          project-url: https://github.com/orgs/RMI-PACTA/projects/11
-          github-token: ${{ secrets.PAT_ADD_ISSUES_TO_PROJECT }}
     
   add-to-maintainer-proj:
     name: Add issue/ PR to @jdhoffa's maintenance GH project
