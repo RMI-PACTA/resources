@@ -1,0 +1,26 @@
+---
+# This example file will enable actions that trigger on created or modified GitHub issues.
+#
+# Note the @main in `uses:` on the last line. This will call the latest version of the workflow from the `main` branch in the RMI-PACTA/actions repo.
+# You can also specify a tag from that repo, or a commit SHA to pin action versions.
+on:
+  issues:
+    types:
+      [opened, edited, deleted, closed, reopened, labeled, unlabeled, assigned]
+    issue_comment:
+      types: [created, edited, deleted]
+
+name: GH issues
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  issues:
+    name: Run issues workflows
+    uses: RMI-PACTA/actions/.github/workflows/issues.yml@main
+    with:
+      ado_area_path: "2DegreesInvesting\\Repositories that jdhoffa maintains"
+    secrets:
+      ADO_TOKEN: ${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}
